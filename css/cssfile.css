@@ -1,0 +1,49 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Damion', cursive;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+}
+.keanu{
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform-style: preserve-3d;
+}
+.keanu img{
+    width: 20rem;
+    z-index: 10;
+}
+.container{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    min-height: 80vh;
+    border-radius: 30px;
+    padding: 0rem 2rem;
+    width: 20rem;
+    box-shadow: 0px 20px 20px rgb(0,0,0,0.2);
+}
+.circle{
+    width: 15rem;
+    height: 15rem;
+    background: linear-gradient(to right,rgb(236, 157, 10,0.5),rgb(36, 20, 180,0.5));
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+}
+.roles{
+    display: flex;
+    justify-content: space-between;
+}
